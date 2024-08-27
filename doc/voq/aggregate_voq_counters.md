@@ -84,12 +84,12 @@ VoqStatsOrch will synchronise the VOQ counters between each ASIC's COUNTERS_DB o
 #### gNMI changes
 New virtual paths will be introduced to retrieve VOQ counters from FSI and aggregated VOQ counter stats from SSI
 
-|  DB target|   Virtual Path  |     Description|
-|  ----     |:----:| ----|
-|COUNTERS_DB | "COUNTERS/``<asic id>``/``<system port>``/Voq"|  All VOQ counters for a sytem port on an ASIC on FSI
-|COUNTERS_DB | "COUNTERS/``<asic id>``/``*``/Voq"|  All VOQ counters for all sytem ports on an ASIC on FSI
-|COUNTERS_DB | "COUNTERS/``<system port>``/Voq"|  Aggregated VOQ counters for a system port from SSI
-|COUNTERS_DB | "COUNTERS/``*``/Voq"|  Aggregated VOQ counters for all system ports from SSI
+|  DB target|   Virtual Path  | Supported On? |     Description|
+|  ----     |:----:| :-:| ----|
+|COUNTERS_DB | "COUNTERS/``<asic id>``/``<system port>``/Voq"| FSI |  All VOQ counters for a sytem port on an ASIC on FSI
+|COUNTERS_DB | "COUNTERS/``<asic id>``/``*``/Voq"| FSI | All VOQ counters for all sytem ports on an ASIC on FSI
+|COUNTERS_DB | "COUNTERS/``<system port>``/Voq"| SSI | Aggregated VOQ counters for a system port from SSI
+|COUNTERS_DB | "COUNTERS/``*``/Voq"| SSI | Aggregated VOQ counters for all system ports from SSI
 
 Note: For the sake of uniformity the virtual path for `SSI` says target as `COUNTERS_DB` and table as `COUNTERS` but it will be internally mapped to `CHASSIS_COUNTERS_DB` and `COUNTERS_VOQ`.
 
