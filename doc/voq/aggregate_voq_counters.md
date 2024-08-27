@@ -91,7 +91,7 @@ New virtual paths will be introduced to retrieve VOQ counters from FSI and aggre
 |COUNTERS_DB | "COUNTERS/``<system port>``/Voq"|  Aggregated VOQ counters for a system port from SSI
 |COUNTERS_DB | "COUNTERS/``*``/Voq"|  Aggregated VOQ counters for all system ports from SSI
 
-Note: For the sake of uniformity the virtual path for `SSI` says target as `COUNTERS_DB` and tble as `COUNTERS` but it will be internally mapped to `CHASSIS_COUNTERS_DB` and `COUNTERS_VOQ`.
+Note: For the sake of uniformity the virtual path for `SSI` says target as `COUNTERS_DB` and table as `COUNTERS` but it will be internally mapped to `CHASSIS_COUNTERS_DB` and `COUNTERS_VOQ`.
 
 #### Repositories that need to be changed
    * sonic-buildimage: 
