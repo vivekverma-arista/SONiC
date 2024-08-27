@@ -79,7 +79,7 @@ The following new VOQ counters should be available for each VOQ entry in the DB:
 ##### New VoqStatsOrch module
 A new module called VoqStatsOrch will be introduced which will be initialised by orchdaemon.
 
-VoqStatsOrch will synchronise the VOQ counters between each ASIC's COUNTERS_DB on the FSI and CHASSIS_COUNTERS_DB running on the SSI.
+VoqStatsOrch will synchronise the VOQ counters between each ASIC's COUNTERS_DB on FSIs and CHASSIS_COUNTERS_DB running on the SSI.
 
 #### gNMI changes
 New virtual paths will be introduced to retrieve VOQ counters from FSI and aggregated VOQ counter stats from SSI
