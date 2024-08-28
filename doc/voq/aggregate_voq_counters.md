@@ -44,7 +44,7 @@ Voq stats on FSI are already polled via flex counter for each asic by it's corre
 ### High-Level Design
 
 Figure 1: Gathering the VOQ stats in CHASSIS_COUNTERS_DB 
-![Sequence Diagram](images/agg_voq_seq_diagram.png "Figure 1: Sequence Diagram")  
+![Sequence Diagram](images/voq_seq_diagram.png "Figure 1: Sequence Diagram")  
 Figure 2: Aggregation of VOQ stats
 ![Aggregation of VOQ Stats](images/voq_cli.png "Figure 2: Aggregation of VOQ Stats")
 
