@@ -94,12 +94,12 @@ New virtual paths will be introduced to retrieve VOQ counters from FSI and aggre
 Note: For the sake of uniformity the virtual path for `SSI` says target as `COUNTERS_DB` and table as `COUNTERS` but it will be internally mapped to `CHASSIS_COUNTERS_DB` and `COUNTERS_VOQ`.
 
 #### Repositories that need to be changed
-   * sonic-buildimage: 
-   * sonic-swss-common: https://github.com/sonic-net/sonic-swss-common/pull/855
-   * sonic-swss: https://github.com/sonic-net/sonic-swss/pull/3047
-   * sonic-utilities: https://github.com/sonic-net/sonic-utilities/pull/3163
-   * sonic-gnmi: 
-   * sonic-mgmt: 
+   * sonic-buildimage 
+   * sonic-swss-common 
+   * sonic-swss 
+   * sonic-utilities 
+   * sonic-gnmi 
+   * sonic-mgmt 
 
 ### SAI API 
 No new SAI API is being added. 
